@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/stylesheet/reset.css" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Sen:wght@700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header fixed">
+            <div class="main-content">
+                <div class="body">
+                    <!-- LOGO -->
+                    <a href="#">
+                        <img src="./assets/images/Logo.svg" alt="Besnik." />
+                    </a>
+
+                    <!-- Search -->
+                    <div class="search">
+                        <input
+                            type="search"
+                            id="woocommerce-product-search-field-0"
+                            class="search-field mb-0"
+                            placeholder="Search here..."
+                            value=""
+                            name="s"
+                            autocomplete="off"
+                        />
+
+                        <img
+                            src="./assets/images/magnifying-glass-solid.svg"
+                            alt="..."
+                            class="search-icon"
+                        />
+                    </div>
+
+                    <!-- Navigation -->
+                    <nav class="nav">
+                        <ul>
+                            <li>
+                                <a href="home.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="introduction.html">Introduction</a>
+                            </li>
+                            <li>
+                                <a href="contain.html">Product</a>
+                            </li>
+                            <li class="active">
+                                <a href="#!">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Sign Up -->
+                    <div class="action">
+                        <a href="#!" class="sign-up-btn btn">Sign Up</a>
+                    </div>
+
+                    <!-- Cart -->
+                    <div class="cart">
+                        <a href="#!">
+                            <img
+                                src="./assets/images/cart-shopping-solid.svg"
+                                alt="Cart"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="contact">
+                <form action="" method="post">
+                    <label for="hoTen"><b>Họ tên:</b></label>
+                    <input type="text" id="hoTen" name="hoTen" required /><br />
+
+                    <label for="email"><b>Email:</b></label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    /><br />
+
+                    <label for="noiDung"><b>Nội dung:</b></label>
+                    <textarea
+                        id="noiDung"
+                        name="noiDung"
+                        rows="4"
+                        required
+                    ></textarea
+                    ><br />
+
+                    <input type="submit" value="Gửi" />
+                </form>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="main-content">
+                <div class="row">
+                    <!-- COLUMN 1 -->
+                    <div class="column">
+                        <a href=""
+                            ><img
+                                src="./assets/images/Logo.svg"
+                                alt="Besnik"
+                                class="logo"
+                        /></a>
+                        <p class="desc">
+                            Do you need to shop for your dream home? We are a
+                            great choice.
+                        </p>
+                        <img
+                            src="./assets/images/social.svg"
+                            alt="Social"
+                            class="social"
+                        />
+                    </div>
+                    <!-- COLUMN 2 -->
+                    <div class="column">
+                        <h3 class="title">Company</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="">About Us</a>
+                            </li>
+                            <li>
+                                <a href="">Features</a>
+                            </li>
+                            <li>
+                                <a href="">Our Pricing</a>
+                            </li>
+                            <li>
+                                <a href="">Latest News</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- COLUMN 3 -->
+                    <div class="column">
+                        <h3 class="title">Support</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- COLUMN 4 -->
+                    <div class="column">
+                        <h3 class="title">Address</h3>
+                        <p class="desc">
+                            <strong>Location: </strong>Toà Nhà ĐTD, Trịnh Văn
+                            Bô, Nam Từ Liêm, Hà Nội
+                        </p>
+
+                        <p class="desc">
+                            <strong>Email: </strong>myemail@gmail.com
+                        </p>
+
+                        <p class="desc">
+                            <strong>Phone: </strong>+ 000 1234 567 890
+                        </p>
+                    </div>
+                </div>
+                <p class="copyright">
+                    Copyright ©2023 webdesign All rights reserved
+                </p>
+            </div>
+        </div>
+    </body>
+</html>

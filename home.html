@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <!-- Reset CSS -->
+        <link rel="stylesheet" href="./assets/stylesheet/reset.css" />
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Sen:wght@700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./assets/stylesheet/style.css" />
+    </head>
+    <body>
+        <header class="header fixed">
+            <div class="main-content">
+                <div class="body">
+                    <!-- LOGO -->
+                    <a href="home.html">
+                        <img src="./assets/images/Logo.svg" alt="Besnik." />
+                    </a>
+
+                    <!-- Search -->
+                    <div class="search">
+                        <input
+                            type="search"
+                            id="woocommerce-product-search-field-0"
+                            class="search-field mb-0"
+                            placeholder="Search here..."
+                            value=""
+                            name="s"
+                            autocomplete="off"
+                        />
+
+                        <img
+                            src="./assets/images/magnifying-glass-solid.svg"
+                            alt="..."
+                            class="search-icon"
+                        />
+                    </div>
+
+                    <!-- Navigation -->
+                    <nav class="nav">
+                        <ul>
+                            <li class="active">
+                                <a href="home.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="introduction.html">Introduction</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Product</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Sign Up -->
+                    <div class="action">
+                        <a href="#!" class="sign-up-btn btn">Sign Up</a>
+                    </div>
+
+                    <!-- Cart -->
+                    <div class="cart">
+                        <a href="#!">
+                            <img
+                                src="./assets/images/cart-shopping-solid.svg"
+                                alt="Cart"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <!-- HERO -->
+            <div class="hero">
+                <div class="main-content">
+                    <div class="body">
+                        <!------------------------------------ Hero Left ------------------------------------>
+                        <div class="media-block">
+                            <img
+                                src="./assets/images/furniture-background.jpg"
+                                alt="Learn without limits and spread knowledge."
+                                class="img"
+                            />
+                            <div class="hero-summary">
+                                <div class="item">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/images/orion_page.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="info">
+                                        <p class="label">20%</p>
+                                        <p class="title">Black Friday</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/images/orion_code-window.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="info">
+                                        <p class="label">10 types</p>
+                                        <p class="title">Furniture</p>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="icon">
+                                        <img
+                                            src="./assets/images/orion_megaphone.svg"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="info">
+                                        <p class="label">24/7</p>
+                                        <p class="title">Hotline</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!------------------------------------ Hero Right ------------------------------------>
+                        <div class="content-block">
+                            <div class="content-body">
+                                <h1 class="heading lv1">
+                                    Furniture Besnik "Life made more convenient"
+                                </h1>
+                                <p class="desc">
+                                    Transform your house into your dream home
+                                    with our exquisite furniture collection.
+                                    Elevate your living spaces and create an
+                                    ambiance that whispers, 'This is my dream
+                                    house.' Explore our curated selection and
+                                    bring home the perfect pieces to make every
+                                    moment extraordinary
+                                </p>
+                                <div class="cta-group">
+                                    <a href="#popular" class="btn hero-cta"
+                                        >Popular Product</a
+                                    >
+                                    <button class="watch-video">
+                                        <div class="icon">
+                                            <img
+                                                src="./assets/images/icon-watchvideo.svg"
+                                                alt="#!"
+                                            />
+                                        </div>
+                                        <span>Watch Video</span>
+                                    </button>
+                                </div>
+                                <p class="desc">Recent interactions</p>
+                                <div class="stats">
+                                    <p class="desc-num">
+                                        <strong>50K</strong> Customers
+                                    </p>
+                                    <p class="desc-num">
+                                        <strong>70+</strong> Furnitures
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Popular -->
+            <div class="popular" id="popular">
+                <div class="main-content">
+                    <div class="top-popular">
+                        <div class="cart">
+                            <img
+                                src="./assets/images/cart-shopping-solid.svg"
+                                alt=""
+                            />
+                        </div>
+                        <h2 class="heading lv2">The Best Selling Product</h2>
+                    </div>
+                    <div class="bottom-popular row-1">
+                        <!-- Item 1 -->
+                        <div class="items">
+                            <a href="table.html">
+                                <img
+                                    src="./assets/images/BanGiamDoc.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Table</div>
+                                <p class="des">Boss Table</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="items">
+                            <a href="chair.html">
+                                <img
+                                    src="./assets/images/GheLanhDao2.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Chair</div>
+                                <p class="des">Boss Chair</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="items">
+                            <a href="sofa.html">
+                                <img
+                                    src="./assets/images/sofaDaCaoCap.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Sofa</div>
+                                <p class="des">Premium Sofa</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom-popular row-2">
+                        <!-- Item 1 -->
+                        <div class="items">
+                            <a href="cabinet.html">
+                                <img
+                                    src="./assets/images/TuLanhDao.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Table</div>
+                                <p class="des">Boss Table</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="items">
+                            <a href="bookshelves.html">
+                                <img
+                                    src="./assets/images/TuTrangTri.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Chair</div>
+                                <p class="des">Boss Chair</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="items">
+                            <a href="sofa.html">
+                                <img
+                                    src="./assets/images/sofaDaCaoCap.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Sofa</div>
+                                <p class="des">Premium Sofa</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bottom-popular row-3">
+                        <!-- Item 1 -->
+                        <div class="items">
+                            <a href="table.html">
+                                <img
+                                    src="./assets/images/BanGiamDoc.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Table</div>
+                                <p class="des">Boss Table</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="items">
+                            <a href="chair.html">
+                                <img
+                                    src="./assets/images/GheLanhDao2.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Chair</div>
+                                <p class="des">Boss Chair</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="items">
+                            <a href="sofa.html">
+                                <img
+                                    src="./assets/images/sofaDaCaoCap.jpg"
+                                    alt="Table"
+                                    class="thumbnail"
+                                />
+                            </a>
+                            <div class="info">
+                                <div class="sub-title">Sofa</div>
+                                <p class="des">Premium Sofa</p>
+                                <div class="price">
+                                    <div class="price-old">10.000.000</div>
+                                    <div class="price-new">8.500.000</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="portfolio">
+                <div class="main-content">
+                    <div class="top-port">
+                        <h2 class="heading lv2">Product Portfolio</h2>
+                    </div>
+                    <div class="bottom-port">
+                        <div class="list-item">
+                            <!-- Item 1 -->
+                            <div class="item">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/images/thumb-table.jpg"
+                                        alt="Table"
+                                        class="thumb"
+                                    />
+                                </a>
+                                <div class="info">
+                                    <div class="sub-title">Table</div>
+                                    <div class="des">3 Product</div>
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="item">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/images/thumb-chair.jpg"
+                                        alt="Table"
+                                        class="thumb"
+                                    />
+                                </a>
+                                <div class="info">
+                                    <div class="sub-title">Chair</div>
+                                    <div class="des">3 Product</div>
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="item">
+                                <a href="#!">
+                                    <img
+                                        src="./assets/images/thumb-sofa.jpg"
+                                        alt="Table"
+                                        class="thumb"
+                                    />
+                                </a>
+                                <div class="info">
+                                    <div class="sub-title">Sofa</div>
+                                    <div class="des">3 Product</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DELIVERY POLICY -->
+            <div class="policy">
+                <div class="main-content">
+                    <div class="top-policy">
+                        <h2 class="heading lv2">DELIVERY POLICY</h2>
+                    </div>
+                    <div class="bottom-policy">
+                        <div class="list-item">
+                            <div class="items">
+                                <div class="icon">
+                                    <img
+                                        src="./assets/images/rotate-right-solid.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="sub-title">NATIONWIDE DELIVERY</div>
+                                <div class="des">
+                                    Delivery support at reasonable costs
+                                </div>
+                            </div>
+
+                            <div class="items">
+                                <div class="icon">
+                                    <img
+                                        src="./assets/images/truck-fast-solid.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="sub-title">FAST DELIVERY</div>
+                                <div class="des">
+                                    Fast delivery within Hanoi city
+                                </div>
+                            </div>
+
+                            <div class="items">
+                                <div class="icon">
+                                    <img
+                                        src="./assets/images/thumbs-up-solid.svg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="sub-title">NATIONWIDE DELIVERY</div>
+                                <div class="des">
+                                    Delivery support at reasonable costs
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FeedBack -->
+            <div class="feedback">
+                <div class="main-content">
+                    <div class="top-feedback">
+                        <h2 class="heading lv2">FEEDBACK</h2>
+                    </div>
+                    <bottom-feedback>
+                        <div class="list-item">
+                            <div class="items">
+                                <img
+                                    src="./assets/images/tuan.jpg"
+                                    alt=""
+                                    class="avatar"
+                                />
+                                <div class="info">
+                                    <div class="rates">
+                                        <img
+                                            src="./assets/images/star-rating.svg"
+                                            alt=""
+                                            class="star"
+                                        />
+                                        <span>4.5</span>
+                                    </div>
+                                    <p class="desc">Sản phẩm rất tuyệt vời</p>
+                                    <p class="name">Quốc Tuấn</p>
+                                </div>
+                            </div>
+
+                            <div class="items">
+                                <img
+                                    src="./assets/images/khai1.jpg"
+                                    alt=""
+                                    class="avatar"
+                                />
+                                <div class="rates">
+                                    <img
+                                        src="./assets/images/star-rating.svg"
+                                        alt=""
+                                        class="star"
+                                    />
+                                    <span>4.5</span>
+                                </div>
+                                <div class="p desc">
+                                    Hàng đẹp và chất lượng. Giao hàng nhanh
+                                </div>
+                                <p class="name">Dương Khải</p>
+                            </div>
+
+                            <div class="items">
+                                <img
+                                    src="./assets/images/viet.jpg"
+                                    alt=""
+                                    class="avatar"
+                                />
+                                <div class="rates">
+                                    <img
+                                        src="./assets/images/star-rating.svg"
+                                        alt=""
+                                        class="star"
+                                    />
+                                    <span>4.5</span>
+                                </div>
+                                <p class="desc">Hàng rất đẹp và chất lượng</p>
+                                <p class="name">Quốc Việt</p>
+                            </div>
+                        </div>
+                    </bottom-feedback>
+                </div>
+            </div>
+        </main>
+        <!-- FOOTER -->
+        <div class="footer">
+            <div class="main-content">
+                <div class="row">
+                    <!-- COLUMN 1 -->
+                    <div class="column">
+                        <a href=""
+                            ><img
+                                src="./assets/images/Logo.svg"
+                                alt="Besnik"
+                                class="logo"
+                        /></a>
+                        <p class="desc">
+                            Do you need to shop for your dream home? We are a
+                            great choice.
+                        </p>
+                        <img
+                            src="./assets/images/social.svg"
+                            alt="Social"
+                            class="social"
+                        />
+                    </div>
+                    <!-- COLUMN 2 -->
+                    <div class="column">
+                        <h3 class="title">Company</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="">About Us</a>
+                            </li>
+                            <li>
+                                <a href="">Features</a>
+                            </li>
+                            <li>
+                                <a href="">Our Pricing</a>
+                            </li>
+                            <li>
+                                <a href="">Latest News</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- COLUMN 3 -->
+                    <div class="column">
+                        <h3 class="title">Support</h3>
+                        <ul class="list">
+                            <li>
+                                <a href="">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- COLUMN 4 -->
+                    <div class="column">
+                        <h3 class="title">Address</h3>
+                        <p class="desc">
+                            <strong>Location: </strong>Toà Nhà ĐTD, Trịnh Văn
+                            Bô, Nam Từ Liêm, Hà Nội
+                        </p>
+
+                        <p class="desc">
+                            <strong>Email: </strong>myemail@gmail.com
+                        </p>
+
+                        <p class="desc">
+                            <strong>Phone: </strong>+ 000 1234 567 890
+                        </p>
+                    </div>
+                </div>
+                <p class="copyright">
+                    Copyright ©2023 webdesign All rights reserved
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
